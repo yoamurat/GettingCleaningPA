@@ -80,4 +80,4 @@ data_final <- mutate(data_mean_std, Activity=act[Activity,2])
 data_average <- data_final %>% group_by(Subject, Activity) %>% summarise_each(funs(mean))
 
 
-write.table(data_average, "dataset_q5.txt")
+write.table(data_average, "dataset_q5.txt", row.name=FALSE)
