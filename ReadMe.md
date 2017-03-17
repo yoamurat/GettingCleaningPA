@@ -1,4 +1,4 @@
-##ReadMe for run_analysis.R file
+## ReadMe for run_analysis.R file
 
 The run_analysis.R performs the following sequence of operations on the data files given in:
 
